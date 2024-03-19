@@ -178,8 +178,8 @@ export default function Router() {
         { path: 'ecommerce', element: <GeneralEcommercePage /> },
         { path: 'analytics', element: <GeneralAnalyticsPage /> },
         { path: 'banking', element: <GeneralBankingPage /> },
-        { path: 'booking', element: <GeneralBookingPage /> },
-        { path: 'file', element: <GeneralFilePage /> },
+        // { path: 'booking', element: <GeneralBookingPage /> },
+        // { path: 'file', element: <GeneralFilePage /> },
         {
           path: 'e-commerce',
           children: [
